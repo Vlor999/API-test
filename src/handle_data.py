@@ -24,11 +24,8 @@ def init_timezone() -> set[str]:
 def init_language() -> set[str]:
     logger.debug("Initializing language set")
     output_set = set()
-    try:
-        output_set.update(["en", "fr", "nl", "pt", "it", "ar", "de", "es", "ca", "eu", "sv"])
-        logger.debug("Language set initialized with %d entries", len(output_set))
-    except Exception as e:
-        logger.error("Error initializing language set: %s", e)
+    output_set.update(["en", "fr", "nl", "pt", "it", "ar", "de", "es", "ca", "eu", "sv"])
+    logger.debug("Language set initialized with %d entries", len(output_set))
     return output_set
 
 def verify_dep_region_files(departement: str = None, region: str = None) -> bool:

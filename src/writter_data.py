@@ -15,7 +15,10 @@ def write_data(filename:str, data:json, timeInfo:bool = False) -> str:
     filename += ".json"
 
     logger.debug(f"Writting datas into the file : {filename}")
+    json_string = json.dumps(data, ensure_ascii=False, indent=4)
+    json_string = json_string.replace('\\"', '"').replace('"[', '[').replace(']"', ']').replace('"{', '{').replace('}"', '}')
+
     with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=4)
+        f.write(json_string)
 
     return filename
