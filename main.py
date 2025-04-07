@@ -5,7 +5,7 @@ from src.writter_data import write_data
 
 def main():
     json_file = getData().json()
-    write_data("data/mydatas.json", json_file)
+    # write_data("data/recup/mydatas", json_file, timeInfo=True)
 
 if __name__ =="__main__":
     main()
