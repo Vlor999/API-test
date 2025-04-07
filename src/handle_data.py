@@ -24,3 +24,7 @@ def init_language() -> set[str]:
 def init_zone() -> set[str]:
     # TODO
     return set()
+
+def init_dep() -> set[str]:
+    # TODO
+    return set()
