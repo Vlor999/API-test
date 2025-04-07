@@ -1,0 +1,68 @@
+{
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports"
+      },
+      {
+        "rel": "csv",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/csv"
+      },
+      {
+        "rel": "json",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/json"
+      },
+      {
+        "rel": "fgb",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/fgb"
+      },
+      {
+        "rel": "geojson",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/geojson"
+      },
+      {
+        "rel": "gpx",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/gpx"
+      },
+      {
+        "rel": "jsonl",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/jsonl"
+      },
+      {
+        "rel": "kml",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/kml"
+      },
+      {
+        "rel": "ov2",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/ov2"
+      },
+      {
+        "rel": "parquet",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/parquet"
+      },
+      {
+        "rel": "rdfxml",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/rdfxml"
+      },
+      {
+        "rel": "jsonld",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/jsonld"
+      },
+      {
+        "rel": "turtle",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/turtle"
+      },
+      {
+        "rel": "n3",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/n3"
+      },
+      {
+        "rel": "shp",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/shp"
+      },
+      {
+        "rel": "xlsx",
+        "href": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/exports/xlsx"
+      }
+    ]
+  }
