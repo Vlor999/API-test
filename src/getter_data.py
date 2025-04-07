@@ -19,6 +19,7 @@ def getData(
     lang: str = "fr",
     timezone: str = "Europe/Paris",
     limit: int = 20,
+    offset: int = 0,
     region: str = "Île-de-France"
 ) -> requests.models.Response:
 
@@ -31,6 +32,9 @@ def getData(
     if limit < 1:
         logger.debug(f"La limite '{limit}' n'est pas valide. Elle doit être supérieure à 0.")
         limit = 1
+    if offset < 0:
+        logger.debug(f"L'offset '{offset}' n'est pas valide. Il doit être positive.")
+        offset = 0
     if region not in ZONE_LIST:
         logger.debug(f"La région '{region}' n'est pas disponible. Régions valides : {ZONE_LIST}")
         region = "Île-de-France"
@@ -38,6 +42,7 @@ def getData(
     request_url = (
         f"{url}"
         f"&lang={lang}"
+        f"&offset={offset}"
         f"&timezone={timezone}"
         f"&limit={limit}"
         f"&refine=region:%22{region}%22"
